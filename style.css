@@ -70,7 +70,7 @@ b {
 }
 .hujjat {
 	display: flex;
-	padding: 17px;
+	padding: 17px 20px;
 	background: linear-gradient(270deg, #00feb2 0%, #00d1da 100%);
 	border-radius: 100px;
 	margin-right: 22px;
@@ -318,9 +318,7 @@ b {
   padding: 50px 0;
 }
 
-.title-3{
-  line-height: 50px;
-}
+
 
 .table-wrapper {
 	overflow-x: auto;
@@ -369,6 +367,7 @@ tr td:first-child {
 	color: #019447;
 	font-weight: bold;
 	border-bottom: #4a4a4a solid 3px;
+
 }
 
 .styled__tr th, .styled__tr td {
@@ -396,6 +395,8 @@ tr td:first-child {
         .highlight {
             color: green;
             font-weight: bold;
+							margin-top: 30px;
+							display: inline-block;
         }
 
         .negative {
@@ -755,10 +756,12 @@ width: 180px;
 	.realis__container {
 		flex-direction: column;
 		margin-bottom: 30px;
+		padding-top: 30px;
 	}
 
 	.realis {
 		padding: 20px;
+		margin-bottom: 20px;
 	}
 
 	.realis img {
@@ -803,11 +806,11 @@ width: 180px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin-top: 61px;
+		margin-top: 25px;
 	}
 
 	.miravoy {
-		padding: 30px 0 180px 0;
+		padding: 30px 0 130px 0;
 		background: linear-gradient(90deg, #00d1da 0%, #00feb2 100%);
 		position: relative;
 	}
@@ -818,13 +821,22 @@ width: 180px;
 		align-items: center;
 	}
 
+	.funksiya{
+		padding-top: 50px;
+	}
+
+	.prognoz{
+		padding-bottom: 100px;
+	}
+
 	.platforma {
 		max-width: 700px;
 	}
 
 	.miravov__container {
-		padding-top: 100px;
+		padding-top: 80px;
 		max-width: 1050px;
+		z-index: 111;
 	}
 
 	.miravov-content {
@@ -838,7 +850,7 @@ width: 180px;
 	}
 	.aylana {
 		left: 70%;
-		width: 200px;
+		width: 150px;
 	}
 
 	.aylana1 {
@@ -860,6 +872,10 @@ width: 180px;
 	.styled-table td {
 		font-size: 18px;
 		padding: 5px 5px;
+	}
+
+	.img{
+		justify-content: space-between;
 	}
 
   .img-1{
