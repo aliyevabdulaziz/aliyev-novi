@@ -52,6 +52,7 @@ b {
 	display: flex;
 	align-items: center;
 	max-width: 450px;
+  z-index: 1111;
 }
 .hujjat {
 	display: flex;
@@ -308,7 +309,10 @@ b {
 
 .table-wrapper {
 	overflow-x: auto;
+  scrollbar-color: black grey;
 	font-size: 20px;
+  scrollbar-width: unset;
+  padding-bottom: 10px;
 }
 
 .styled-table {
@@ -817,7 +821,7 @@ width: 180px;
 		margin: 0 auto;
 	}
 	.aylana {
-		left: 60%;
+		left: 70%;
 		width: 200px;
 	}
 
@@ -842,9 +846,21 @@ width: 180px;
 		padding: 5px 5px;
 	}
 
+  .img-1{
+    width: 120px;
+  }
+
+  .img-2{
+    width: 120px;
+  }
+
+  .img-3{
+    width: 120px;
+  }
+
 
 .img-4 {
-display: none;
+width: 120px;
 
 }
 .img-5 {
